@@ -31,4 +31,8 @@
  */
 export function calculateTip(billAmount, serviceRating) {
   // Your code here
+  if(billAmount <= 0 || !serviceRating <= 5){
+    return null;
+  }
+  
 }
